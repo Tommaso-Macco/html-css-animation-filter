@@ -44,6 +44,10 @@ transition: 3s;
     transform: scale(2);
 }
 
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
 /* 6 ANIMAZIONE */
 .ex-6-img:hover {
     animation-name: sesta-animazione;
