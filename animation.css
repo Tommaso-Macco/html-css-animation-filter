@@ -1,0 +1,71 @@
+/* 1 ANIMAZIONE */
+.ex-1-square:hover {
+animation-name: prima-animazione;
+animation-duration: 3s;
+background-color: red;
+transition: 3s;
+}
+
+/* 2 ANIMAZIONE */
+.ex-2-square {
+    animation-name: seconda-animazione;
+    animation-duration: 3s;
+    transition: 3s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* 3 ANIMAZIONE */
+.ex-3-square:hover {
+    animation-name: terza-animazione;
+    animation-duration: 3s;
+    transition: 3s;
+    border-radius: 100%;
+}
+
+/* 4 ANIMAZIONE */
+.ex-4-square:hover {
+    animation-name: quarta-animazione;
+    animation-duration: 3s;
+    transition: 3s;
+    opacity: 0%;
+}
+
+/* 5 ANIMAZIONE */
+.ex-5-square {
+    animation-name: quinta-animazione;
+    animation-duration: 3s;
+    transition: 3s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+/* 6 ANIMAZIONE */
+.ex-6-img:hover {
+    animation-name: sesta-animazione;
+    animation-duration: 3s;
+    filter: grayscale(100%);
+}
+
+/* 7 ANIMAZIONE */
+.ex-7-img:hover {
+    animation-name: settima-animazione;
+    animation-duration: 3s;
+    transition: 3s;
+    filter: grayscale(60%);
+    filter: sepia(60%);
+}
+
+/* 8 ANIMAZIONE */
+.ex-8-img:hover {
+    animation-name: ottava-animazione;
+    animation-duration: 2s;
+    transition: 2s;
+    filter: grayscale(60%);
+    filter: sepia(80%);
+    border-radius: 5%;
+}
