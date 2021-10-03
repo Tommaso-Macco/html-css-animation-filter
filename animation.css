@@ -69,3 +69,53 @@ transition: 3s;
     filter: sepia(80%);
     border-radius: 5%;
 }
+
+/* 9 ANIMAZIONE */
+.ex-9-img:hover {
+    animation-name: nona-animazione;
+    animation-duration: 2s;
+    transition: 2s;
+    filter: grayscale(40%);
+    filter: sepia(50%);
+    border-radius: 5%;
+    transform: scale(1.5);
+}
+
+/* 10 ANIMAZIONE */
+.ex-10-icon {
+    animation-name: decima-animazione;
+    animation: decima-animazione 1s linear infinite;
+    transition: 3s;
+}
+@keyframes decima-animazione {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* 11 ANIMAZIONE */
+
+.ex-11-icon:hover {
+    animation-name: undicesima-animazione;
+    animation: undicesima-animazione 2s;
+    transition: 3s;
+}
+
+@keyframes undicesima-animazione {
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 12 ANIMAZIONE */
+
+/* 13 ANIMAZIONE */
